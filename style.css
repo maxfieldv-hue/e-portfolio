@@ -3,6 +3,7 @@
     font-family: "Hanken Grotesk", sans-serif;
     padding: 0;
     box-sizing: border-box;
+    background-color: #FFFCF5;
 }
 
 h1, h2, h3, h4, h5, h6, span {
@@ -41,15 +42,15 @@ nav {
 }
 
 .nav__link--anchor-primary {
-    background-color: #FF6000;
+    background-color: FFFCF5;
     padding: 8px 20px;
-    border-radius: 20px;
-    color: white;
+    color: #242424;
     transition: all 300ms ease;
+    border: 2px solid #242424;
 }
 
 .nav__link--anchor-primary:hover {
-    background-color: #F24600;
+    background-color: #F7F3E6;
 }
 
 .personal__logo {
