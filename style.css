@@ -209,6 +209,7 @@ nav {
 
 .project__img {
     width: 100%;
+    height: auto;
     transition: all 500ms ease;
 }
 
@@ -244,4 +245,21 @@ nav {
 
 .project__list {
     padding-top: 40px;
+}
+
+.project__description {
+    position: absolute;
+    top: 50%;
+    left: 90px;
+    transform: translateY(-50);
+    max-width: 550px;
+    z-index: 3;
+}
+
+.project__description--title,
+.project__description--sub-title,
+.project__description--para,
+.project__description--links {
+    text-align: left;
+    color: #fff;
 }
