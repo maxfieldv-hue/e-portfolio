@@ -3,7 +3,6 @@
     font-family: "Hanken Grotesk", sans-serif;
     padding: 0;
     box-sizing: border-box;
-    background-color: #FFFCF5;
     margin: 0;
 }
 
@@ -254,6 +253,7 @@ nav {
     transform: translateY(-50);
     max-width: 550px;
     z-index: 3;
+    background-color: transparent;
 }
 
 .project__description--title,
@@ -262,4 +262,8 @@ nav {
 .project__description--links {
     text-align: left;
     color: #fff;
+}
+
+.project__description--link {
+    color: #FF6000;
 }
