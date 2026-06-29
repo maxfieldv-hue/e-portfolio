@@ -33,6 +33,11 @@ p {
 a {
     text-decoration: none;
     position: relative;
+    transition: opacity 300ms ease;
+}
+
+i:hover {
+    opacity: 0.5;
 }
 
 .link__hover-effect:after {
